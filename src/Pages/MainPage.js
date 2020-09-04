@@ -89,7 +89,7 @@ function MainPage() {
         textAlign="center"
       />
 
-      {/* <Grid container columns={2} stackable>
+       <Grid container columns={2} stackable>
         <Grid.Column>
         <Segment>LAREGE SCALE REACT APP </Segment>
 
@@ -98,7 +98,7 @@ function MainPage() {
         <Segment>TRM Dashboard</Segment>
         </Grid.Column>
         <Grid.Column>
-          <Segment>React mini apps</Segment>
+          <Segment>React  apps</Segment>
         </Grid.Column>
         <Grid.Column>
           <Segment>Image Processing</Segment>
@@ -109,7 +109,7 @@ function MainPage() {
         <Grid.Column>
           <Segment>Console Chess</Segment>
         </Grid.Column>
-      </Grid> */}
+      </Grid> 
     </div>
   );
 }
