@@ -3,7 +3,7 @@ import Goo from "gooey-react";
 
 function GooeyReact() {
   return (
-    <div intensity="strong">
+    <div intensity="weak">
       <Goo style={{ animation: "floating  8s linear infinite", marginTop: "5em" }}>
         <svg width="192" height="192">
           <circle

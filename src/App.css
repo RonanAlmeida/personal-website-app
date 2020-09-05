@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin:1em;
+  margin: 1em;
 }
 
 svg * {
@@ -19,17 +19,34 @@ svg * {
   }
 }
 
-.floating {   
-  animation-name: floating; 
-  animation-duration: 3s; 
-  animation-iteration-count: infinite; 
-  animation-timing-function: ease-in-out; 
-  margin-left: 30px; 
-  margin-top: 5px; 
-} 
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
 
-@keyframes floating { 
-  0% { transform: translate(0,  0px); } 
-  50%  { transform: translate(0, 40px); } 
-  100%   { transform: translate(0, -0px); }     
-} 
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 40px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.icon {
+  
+  transition: 0.6s;
+}
+
+.icon:hover {
+  transform: scale(1.07);
+
+
+}

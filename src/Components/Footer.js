@@ -5,10 +5,10 @@ function Footer() {
     // position: "fixed",
     bottom: "0",
     textAlign: 'center',
-    marginTop:'100em',
+    marginTop:'10em',
     marginBottom:'1em'
 
   };
-  return <div style={Item}>🚧 Site Under Construction 🚧</div>;
+  return <div style={Item}>Designed and Developed by Ronan Almeida © </div>;
 }
 export default Footer;

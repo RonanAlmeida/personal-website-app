@@ -15,6 +15,7 @@ import {
 import IconOutline from "../Components/IconOutline";
 import GooeyReact from "../OuterComponents/GooeyReact";
 import ModalPopup from "../Components/ModalPopup";
+
 function MainPage() {
   const style = {
     h1: {
@@ -77,39 +78,14 @@ function MainPage() {
         content="Email"
         href="mailto: ronan.almeida@queensu.ca"
       />
+
       <Divider horizontal>
-        <Header as="h2">
-          <Icon name="angle down" inverted color="black"></Icon>
+        <Header as="h1">
+          
+            <Icon name="angle down" inverted color="black"></Icon>
+         
         </Header>
       </Divider>
-      <Header
-        as="h1"
-        style={style.h2Custom}
-        content="Projects"
-        textAlign="center"
-      />
-
-       <Grid container columns={2} stackable>
-        <Grid.Column>
-        <Segment>LAREGE SCALE REACT APP </Segment>
-
-        </Grid.Column>
-        <Grid.Column>
-        <Segment>TRM Dashboard</Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>React  apps</Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>Image Processing</Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>Student Database manager</Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>Console Chess</Segment>
-        </Grid.Column>
-      </Grid> 
     </div>
   );
 }
