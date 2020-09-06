@@ -45,7 +45,7 @@ function MainPage() {
       <Header
         as="h1"
         content="Ronan Almeida"
-        subheader="Welcome to my personal website 👋"
+        subheader="Welcome to my personal website 👋🏾"
         style={style.h1}
         textAlign="center"
         size="huge"
@@ -63,6 +63,7 @@ function MainPage() {
         content="Resume"
         href="https://drive.google.com/file/d/1Wjk8jy3bsXGBi9BfjVe4Up_F1gmYFcGf/view"
       />
+    
       <IconOutline
         name="linkedin"
         content="LinkedIn"

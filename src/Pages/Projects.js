@@ -31,10 +31,11 @@ function MainPage() {
       marginRight: "1rem",
     },
     h2Custom: {
-      fontSize: "1.5rem",
-      marginLeft: "1rem",
-      marginRight: "1rem",
+      // fontSize: "1.5rem",
+      // marginLeft: "1rem",
+      // marginRight: "1rem",
       marginTop: "5.3em",
+      marginBottom: "1em",
       textAlign: "center",
     },
   };
@@ -50,61 +51,100 @@ function MainPage() {
       <Grid container columns={2} stackable>
         <Grid.Column>
           <ProjectCard
+            key="1"
             color="red"
             img="https://via.placeholder.com/1920x800.png"
             subheader="React SQL Javascript"
-            desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer="django php databases"
+            desc=" A repository dedicated to continually solving"
+            footer={[
+              ["Javascript", "yellow"],
+              ["React.js", "red"],
+              ["Router", "blue"],
+              ["Springs", "purple"],
+              ["Hooks", "olive"],
+              ["Tailwind CSS", "green"],
+            ]}
             name="Movie Reccomender"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
+            key="2"
             color="blue"
             img="https://via.placeholder.com/1920x800.png"
-            subheader="Web App"
+            subheader="Private Web App"
             desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer=""
+            footer={[
+              ["Python", "blue"],
+              ["Django", "green"],
+              ["Javascript", "yellow"],
+              ["SQL", "red"],
+              ["JQuery", "orange"],
+              ["Bootstrap", "purple"],
+            ]}
             name="TRM Dashboard"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
+            key="3"
             color="yellow"
             img="https://via.placeholder.com/1920x800.png"
             subheader="React SQL Javascript"
             desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer="django php databases"
+            footer={[
+              ["Javascript", "yellow"],
+              ["React.js", "red"],
+              ["Router", "blue"],
+              ["Springs", "purple"],
+              ["Hooks", "olive"],
+              ["Tailwind CSS", "green"],
+            ]}
             name="React Apps"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
+            key="4"
             color="green"
             img="https://via.placeholder.com/1920x800.png"
             subheader="React SQL Javascript"
             desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer="django php databases"
+            footer={[
+              ["C#", "blue"],
+              [".NET Framework", "orange"],
+              ["Windows App", "green"],
+            ]}
             name="Image Processing"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
+            key="5"
             color="purple"
             img="https://via.placeholder.com/1920x800.png"
             subheader="React SQL Javascript"
             desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer="django php databases"
-            name="JavaFX Pizza System"
+            footer={[
+              ["Java", "yellow"],
+              ["JUnit Testing", "blue"],
+              ["JavaFX", "green"],
+            ]}
+            name="Pizza Ordering System"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
+            key="6"
             color="black"
             img="https://via.placeholder.com/1920x800.png"
             subheader="React SQL Javascript"
             desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer="django php databases"
+            footer={[
+              ["C#", "blue"],
+              ["Terminal", "red"],
+              [".NET Core", "orange"],
+            ]}
             name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
