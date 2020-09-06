@@ -149,6 +149,8 @@ function MainPage() {
           ></ProjectCard>
         </Grid.Column>
       </Grid>
+     
+  
     </div>
   );
 }

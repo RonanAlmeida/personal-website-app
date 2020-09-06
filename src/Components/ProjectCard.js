@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Icon, Label, Image, Popup, Button } from "semantic-ui-react";
+import SliderImages from './SlideImages'
 
 function ProjectCard(props) {
   // const contextRef = React.useRef();
@@ -7,14 +8,20 @@ function ProjectCard(props) {
 
   for (var i = 0; i < props.footer.length; i++) {
     console.log(props.footer[i]);
-    skills.push(<Label  style={{marginTop:'3px'}}color={props.footer[i][1]}>{props.footer[i][0]}</Label>);
+    skills.push(
+      <Label style={{ marginTop: "3px" }} color={props.footer[i][1]}>
+        {props.footer[i][0]}
+      </Label>
+    );
   }
   return (
     <div>
+     
       {/* <Popup
         trigger={ */}
       <Card fluid color="blue">
-        <Image src={props.img} wrapped ui={false} />
+        {/* <Image src={props.img} wrapped ui={false} /> */}
+        <SliderImages/>
         <Card.Content>
           <Card.Header>{props.name}</Card.Header>
           <Card.Meta>{props.subheader}</Card.Meta>
@@ -33,6 +40,7 @@ function ProjectCard(props) {
           </Button>
         </Button.Group>
       </Card>
+
       {/* }
         offset="0, 0px"
         position="right center"

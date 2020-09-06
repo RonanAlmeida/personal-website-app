@@ -14,7 +14,6 @@ import {
 } from "semantic-ui-react";
 import IconOutline from "../Components/IconOutline";
 import GooeyReact from "../OuterComponents/GooeyReact";
-import ModalPopup from "../Components/ModalPopup";
 
 function MainPage() {
   const style = {
@@ -63,7 +62,7 @@ function MainPage() {
         content="Resume"
         href="https://drive.google.com/file/d/1Wjk8jy3bsXGBi9BfjVe4Up_F1gmYFcGf/view"
       />
-    
+
       <IconOutline
         name="linkedin"
         content="LinkedIn"
@@ -82,9 +81,7 @@ function MainPage() {
 
       <Divider horizontal>
         <Header as="h1">
-          
-            <Icon name="angle down" inverted color="black"></Icon>
-         
+          <Icon name="angle down" inverted color="black"></Icon>
         </Header>
       </Divider>
     </div>
