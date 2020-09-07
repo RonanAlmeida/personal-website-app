@@ -59,10 +59,10 @@ function MainPage() {
             footer={[
               ["Javascript", "yellow"],
               ["React.js", "red"],
+              ["Node.js", "green"],
               ["Router", "blue"],
               ["Springs", "purple"],
               ["Hooks", "olive"],
-              ["Tailwind CSS", "green"],
             ]}
             name="Movie Reccomender"
           ></ProjectCard>
@@ -79,6 +79,7 @@ function MainPage() {
               ["Django", "green"],
               ["Javascript", "yellow"],
               ["SQL", "red"],
+              ["Azure", "blue"],
               ["JQuery", "orange"],
               ["Bootstrap", "purple"],
             ]}
@@ -95,6 +96,7 @@ function MainPage() {
             footer={[
               ["Javascript", "yellow"],
               ["React.js", "red"],
+              ["Node.js", "green"],
               ["Router", "blue"],
               ["Springs", "purple"],
               ["Hooks", "olive"],

@@ -49,7 +49,9 @@ function MainPage() {
         textAlign="center"
         size="huge"
       />
-      <Header sub>Software Engineer</Header>
+      <Header textAlign="center" sub>
+        Software Engineer
+      </Header>
       <Header
         as="h1"
         style={style.h2}
@@ -57,7 +59,9 @@ function MainPage() {
         textAlign="center"
       />
 
-      <IconOutline
+
+    <Header textAlign="center" >
+    <IconOutline
         name="file alternate"
         content="Resume"
         href="https://drive.google.com/file/d/1Wjk8jy3bsXGBi9BfjVe4Up_F1gmYFcGf/view"
@@ -78,6 +82,8 @@ function MainPage() {
         content="Email"
         href="mailto: ronan.almeida@queensu.ca"
       />
+      </Header>
+
 
       <Divider horizontal>
         <Header as="h1">

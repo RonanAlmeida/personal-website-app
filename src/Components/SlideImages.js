@@ -1,11 +1,19 @@
-import { CarouselProvider, Image, Slide, Slider } from "pure-react-carousel";
+import {
+  CarouselProvider,
+  ButtonBack,
+  ButtonNext,
+  Image,
+  Slide,
+  Slider,
+} from "pure-react-carousel";
 import React from "react";
-import { Divider } from "semantic-ui-react";
 
 import CustomDotGroup from "./CustomDotGroup";
+import { Icon,Header } from "semantic-ui-react";
 
 const ImageCarousel = () => (
   <CarouselProvider
+    infinite={true}
     naturalSlideWidth={1080}
     naturalSlideHeight={400}
     totalSlides={3}
@@ -21,8 +29,14 @@ const ImageCarousel = () => (
         <Image src="https://lorempixel.com/800/800/cats/2" />
       </Slide>
     </Slider>
+    <ButtonBack> <Header as="h6" icon>
+      <Icon name="chevron circle left">
+      </Icon>
+    </Header></ButtonBack>
 
-    <CustomDotGroup slides={3} />
+   
+    <ButtonNext>Next</ButtonNext>
+    {/* <CustomDotGroup slides={3} /> */}
   </CarouselProvider>
 );
 

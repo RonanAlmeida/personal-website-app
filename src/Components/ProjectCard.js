@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, Icon, Label, Image, Popup, Button } from "semantic-ui-react";
-import SliderImages from './SlideImages'
+import { Card, Icon,Header, Label, Image, Popup, Button } from "semantic-ui-react";
+import SliderImages from "./SlideImages";
 
 function ProjectCard(props) {
   // const contextRef = React.useRef();
@@ -9,26 +9,28 @@ function ProjectCard(props) {
   for (var i = 0; i < props.footer.length; i++) {
     console.log(props.footer[i]);
     skills.push(
-      <Label style={{ marginTop: "3px" }} color={props.footer[i][1]}>
+      <Label 
+        style={{ marginTop: "3px", textAlign: "center" }}
+        color={props.footer[i][1]}
+      >
         {props.footer[i][0]}
       </Label>
     );
   }
   return (
     <div>
-     
       {/* <Popup
         trigger={ */}
       <Card fluid color="blue">
         {/* <Image src={props.img} wrapped ui={false} /> */}
-        <SliderImages/>
+        <SliderImages />
         <Card.Content>
-          <Card.Header>{props.name}</Card.Header>
-          <Card.Meta>{props.subheader}</Card.Meta>
-          <Card.Description>{props.desc}</Card.Description>
+          <Card.Header textAlign='center'>{props.name}</Card.Header>
+          <Card.Meta textAlign='center' >{props.subheader}</Card.Meta>
+          <Card.Description textAlign='center' >{props.desc}</Card.Description>
         </Card.Content>
 
-        <Card.Content extra>{skills}</Card.Content>
+        <Card.Content  textAlign="center" extra>{skills}</Card.Content>
         {/* <strong ref={contextRef}></strong> */}
         <Button.Group>
           <Button color="blue">
