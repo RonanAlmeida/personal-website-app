@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import "./App.css";
 import Projects from "./Pages/Projects";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // import HomepageLayout from './Components/HomepageLayout';
 

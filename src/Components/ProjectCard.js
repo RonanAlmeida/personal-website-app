@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Icon,Header, Label, Image, Popup, Button } from "semantic-ui-react";
-import SliderImages from "./SlideImages";
-
+import SlideImages from './SlideImages'
 function ProjectCard(props) {
   // const contextRef = React.useRef();
   const skills = [];
@@ -23,7 +22,7 @@ function ProjectCard(props) {
         trigger={ */}
       <Card fluid color="blue">
         {/* <Image src={props.img} wrapped ui={false} /> */}
-        <SliderImages />
+       <SlideImages img={props.img}/>
         <Card.Content>
           <Card.Header textAlign='center'>{props.name}</Card.Header>
           <Card.Meta textAlign='center' >{props.subheader}</Card.Meta>
