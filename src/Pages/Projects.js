@@ -17,8 +17,21 @@ import ProjectCard from "../Components/ProjectCard";
 import s from "../project_images/shopapp1.png";
 import s2 from "../project_images/shopapp2.png";
 import s3 from "../project_images/shopapp3.png";
-
-
+import c1 from "../project_images/chess1.png";
+import c2 from "../project_images/chess2.png";
+import c3 from "../project_images/chess3.png";
+import i1 from "../project_images/IMGP1.png";
+import i2 from "../project_images/IMGP2.png";
+import i3 from "../project_images/IMGP3.png";
+import i4 from "../project_images/IMGP4.png";
+import i5 from "../project_images/IMGP5.png";
+import a1 from "../project_images/admin1.png";
+import a2 from "../project_images/admin2.png";
+import a3 from "../project_images/admin3.png";
+import a4 from "../project_images/admin4.png";
+import p1 from "../project_images/piz1.png";
+import p2 from "../project_images/piz2.png";
+import p3 from "../project_images/piz3.png";
 function MainPage() {
   const style = {
     h1: {
@@ -72,13 +85,14 @@ function MainPage() {
             name="Movie Reccomender"
           ></ProjectCard>
         </Grid.Column> */}
-        <Grid.Column>
+        {/* trm app */}
+        {/* <Grid.Column>
           <ProjectCard
             key="2"
             color="blue"
-            img={[]}
+            img={[c1,c2,c3]}
             subheader="Private Web App"
-            desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
+            desc="  description"
             footer={[
               ["Python", "blue"],
               ["Django", "green"],
@@ -86,11 +100,11 @@ function MainPage() {
               ["SQL", "red"],
               ["Azure", "blue"],
               ["JQuery", "orange"],
-              ["Bootstrap", "purple"],
+              // ["Bootstrap", "purple"],
             ]}
             name="TRM Dashboard"
           ></ProjectCard>
-        </Grid.Column>
+        </Grid.Column> */}
         <Grid.Column>
           <ProjectCard
             key="3"
@@ -114,9 +128,24 @@ function MainPage() {
           <ProjectCard
             key="4"
             color="green"
-            img={[]}
+            img={[a3,a1,a2,a4]}
             subheader="Windows Application"
-            desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
+            desc="  description"
+            footer={[
+              ["C#", "blue"],
+              [".NET Framework", "orange"],
+              ["Windows App", "green"],
+            ]}
+            name="Student Administrative System"
+          ></ProjectCard>
+        </Grid.Column>
+        <Grid.Column>
+          <ProjectCard
+            key="4"
+            color="green"
+            img={[i2,i1,i3,i4,i5]}
+            subheader="Windows Application"
+            desc="  description"
             footer={[
               ["C#", "blue"],
               [".NET Framework", "orange"],
@@ -125,34 +154,35 @@ function MainPage() {
             name="Image Processing"
           ></ProjectCard>
         </Grid.Column>
-        <Grid.Column>
-          <ProjectCard
-            key="5"
-            color="purple"
-            img={[]}
-            subheader="Windows Application"
-            desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
-            footer={[
-              ["Java", "yellow"],
-              ["JUnit Testing", "blue"],
-              ["JavaFX", "green"],
-            ]}
-            name="Pizza Ordering System"
-          ></ProjectCard>
-        </Grid.Column>
+
         <Grid.Column>
           <ProjectCard
             key="6"
             color="black"
-            img={[]}
-            subheader="React SQL Javascript"
-            desc=" desc of item  haha  ls- sojfsojf osjfosjefojso"
+            img={[c1,c2,c3]}
+            subheader="Terminal App"
+            desc="  description"
             footer={[
               ["C#", "blue"],
               ["Terminal", "red"],
               [".NET Core", "orange"],
             ]}
             name="Console Chess"
+          ></ProjectCard>
+        </Grid.Column>
+        <Grid.Column>
+          <ProjectCard
+            key="5"
+            color="purple"
+            img={[p1,p2,p3]}
+            subheader="Java GUI"
+            desc="  description"
+            footer={[
+              ["Java", "yellow"],
+              ["JUnit Testing", "blue"],
+              ["JavaFX", "green"],["Object Oriented Design", "red"]
+            ]}
+            name="Pizza Ordering System"
           ></ProjectCard>
         </Grid.Column>
       </Grid>

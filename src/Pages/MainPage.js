@@ -14,6 +14,7 @@ import {
 } from "semantic-ui-react";
 import IconOutline from "../Components/IconOutline";
 import GooeyReact from "../OuterComponents/GooeyReact";
+import pdf from "../Documents/RonanAlmeidaAug2020.pdf";
 
 function MainPage() {
   const style = {
@@ -38,6 +39,9 @@ function MainPage() {
       marginTop: "5.3em",
     },
   };
+  function onResumeClick() {
+    window.open(pdf);
+  }
   return (
     <div>
       <GooeyReact style={style.h1} />
@@ -58,32 +62,31 @@ function MainPage() {
         subheader="Passionate about combing impactful software and algorithmic thinking to deliver effective user solutions"
         textAlign="center"
       />
+      <Header textAlign="center">
+        <IconOutline
+          name="file alternate"
+          content="Resume"
+          // href=""
+          // target=""
+          iconClick={onResumeClick}
+        />
 
-
-    <Header textAlign="center" >
-    <IconOutline
-        name="file alternate"
-        content="Resume"
-        href="https://drive.google.com/file/d/1Wjk8jy3bsXGBi9BfjVe4Up_F1gmYFcGf/view"
-      />
-
-      <IconOutline
-        name="linkedin"
-        content="LinkedIn"
-        href="https://www.linkedin.com/in/ronanalmeida/"
-      />
-      <IconOutline
-        name="github"
-        content="Github"
-        href="https://github.com/RonanAlmeida"
-      />
-      <IconOutline
-        name="mail"
-        content="Email"
-        href="mailto: ronan.almeida@queensu.ca"
-      />
+        <IconOutline
+          name="linkedin"
+          content="LinkedIn"
+          href="https://www.linkedin.com/in/ronanalmeida/"
+        />
+        <IconOutline
+          name="github"
+          content="Github"
+          href="https://github.com/RonanAlmeida"
+        />
+        <IconOutline
+          name="mail"
+          content="Email"
+          href="mailto: ronan.almeida@queensu.ca"
+        />
       </Header>
-
 
       <Divider horizontal>
         <Header as="h1">
