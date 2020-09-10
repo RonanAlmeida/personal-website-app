@@ -1,14 +1,8 @@
 
-# Personal Website: ronan.tech
-A repository dedicated to storing all my React.js projects &amp; mini-apps to play test. The code utilzied here is a combination of several tutorials and my own.
+# Personal Website: <a href="https://ronan.tech/">ronan.tech</a>
+Personal website to showcase my portfolio. Built with React.js & Semantic UI. Fully designed and developed by me!
 
 
-## • ReactShop App
-Moblie React shopping site that uses the core React components of routers, spring and hooks with Tailwind CSS. It makes an axios API request to a dummy server which retrives product listings to be displayed within the app. 
-
-<p float="left">
-  <img src="/react-shop-app/mark-up-images/p1.png" width="328.95" height="460.8">
-<img src="/react-shop-app/mark-up-images/p2.png" width="328.95" height="460.8">
-<img src="/react-shop-app/mark-up-images/p3.png" width="328.95" height="460.8">
+## • Preview Images:
 
  </p>
