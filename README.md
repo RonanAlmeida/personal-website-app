@@ -9,8 +9,7 @@ Fully designed and developed by me!
 
 
 <p float="left">
-  <img src="/react-shop-app/mark-up-images/p1.png" width="328.95" height="460.8">
-<img src="/react-shop-app/mark-up-images/p2.png" width="328.95" height="460.8">
-<img src="/react-shop-app/mark-up-images/p3.png" width="328.95" height="460.8">
+  <img src="/preview_images/WebsiteImage1.png">
+<img src="/preview_images/WebsiteImage2.png">
 
  </p>
