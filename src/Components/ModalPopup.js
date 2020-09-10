@@ -1,38 +1,35 @@
 import React from "react";
-import { Button, Header, Icon, Modal } from "semantic-ui-react";
-import IconOutline from "./IconOutline";
+// import { Button, Header, Icon, Modal } from "semantic-ui-react";
+// import IconOutline from "./IconOutline";
+import { Modal,Button } from "react-bootstrap";
 
 function ModalPopup() {
   const [open, setOpen] = React.useState(false);
 
   return (
-      
     <Modal
-      size="mini"
-      onClose={() => setOpen(false)}
-      onOpen={() => setOpen(true)}
-      open={open}
-      trigger={
-        
-        <Header as="h5" icon>
-          <Icon inverted color="black" name="file alternate" size="huge" />
-        </Header>
-        // <IconOutline  name="file alternate"
-        // content="Resume" ></IconOutline>
-      }
+      {...props}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
     >
-      <Modal.Header>Email</Modal.Header>
-      <Modal.Content>
-        <p>ronanalmeida@queensu.ca</p>
-      </Modal.Content>
-      <Modal.Actions>
-        <Button color="blue" onClick={() => setOpen(false)}>
-          Copy
-        </Button>
-        <Button color='black' positiveonClick={() => setOpen(false)}>Mail To</Button>
-      </Modal.Actions>
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">
+          Modal heading
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button onClick={props.onHide}>Close</Button>
+      </Modal.Footer>
     </Modal>
-  
   );
 }
 

@@ -19,12 +19,10 @@ function IconOutline(props) {
 
   return (
     <Popup
-     
       trigger={
         <a target="_blank" href={props.href} onClick={props.iconClick}>
           <Header as="h5" style={style.icon} icon>
             <Icon
-            
               inverted
               color="black"
               name={props.name}
