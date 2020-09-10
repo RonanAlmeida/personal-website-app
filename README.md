@@ -9,7 +9,7 @@ Fully designed and developed by me!
 
 
 <p float="left">
-  <img src="../preview_images/WebsiteImage1.png">
-<img src="../preview_images/WebsiteImage2.png">
+  <img src="https://raw.githubusercontent.com/RonanAlmeida/personal-website-app/master/preview_images/WebsiteImage1.PNG">
+<img src="https://raw.githubusercontent.com/RonanAlmeida/personal-website-app/master/preview_images/WebsiteImage2.PNG">
 
  </p>
