@@ -109,32 +109,34 @@ function MainPage() {
           <ProjectCard
             key="3"
             color="yellow"
-            img={[s,s2,s3]}
-            subheader="Mini Web Apps"
-            desc="A collection of my  small react projects. Includes ReactShop, Blog and more to come!"
+            img={[s, s2, s3]}
+            subheader="Web Application"
+            desc=" Moblie React shopping site that uses the core react components and designed with Tailwind CSS. The App makes an API request to a server which retrives product listings to be displayed within the app. "
             footer={[
               ["Javascript", "yellow"],
               ["React.js", "red"],
               ["Node.js", "green"],
               ["Router", "blue"],
-              ["Springs", "purple"],
+              ["Axios API", "purple"],
               ["Hooks", "olive"],
               ["Tailwind CSS", "green"],
             ]}
-            name="React Apps"
+            name="Shop App"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
             key="4"
             color="green"
-            img={[a3,a1,a2,a4]}
+            img={[a3, a1, a2, a4]}
             subheader="Windows Application"
-            desc="  description"
+            desc="Built a student database manager that allows adminstrators to edit, add and delete student data information. Along with a limited student view to showcase marks. Application uses an Acess Database to store and modify student data"
             footer={[
               ["C#", "blue"],
+              ["SQL", "red"],
+              ["Acess Database", "yellow"],
               [".NET Framework", "orange"],
-              ["Windows App", "green"],
+              ["Windows Forms", "green"],
             ]}
             name="Student Administrative System"
           ></ProjectCard>
@@ -143,46 +145,46 @@ function MainPage() {
           <ProjectCard
             key="4"
             color="green"
-            img={[i2,i1,i3,i4,i5]}
+            img={[i2, i1, i3, i4, i5]}
             subheader="Windows Application"
-            desc="  description"
+            desc="Windows Application that modifies uploaded images based on varying user selections. Image modifications can be stacked and saved in scaled resolutions."
             footer={[
               ["C#", "blue"],
               [".NET Framework", "orange"],
-              ["Windows App", "green"],
+              ["Windows Forms", "green"],
             ]}
             name="Image Processing"
-          ></ProjectCard>
-        </Grid.Column>
-
-        <Grid.Column>
-          <ProjectCard
-            key="6"
-            color="black"
-            img={[c1,c2,c3]}
-            subheader="Terminal App"
-            desc="  description"
-            footer={[
-              ["C#", "blue"],
-              ["Terminal", "red"],
-              [".NET Core", "orange"],
-            ]}
-            name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
           <ProjectCard
             key="5"
             color="purple"
-            img={[p1,p2,p3]}
-            subheader="Java GUI"
-            desc="  description"
+            img={[p1, p2, p3]}
+            subheader="JavaFX"
+            desc="Built a JavaFX GUI that allows users to order a cusomizable pizza. The Application follows  object oriented design principles along with strict JUnit testing"
             footer={[
               ["Java", "yellow"],
               ["JUnit Testing", "blue"],
-              ["JavaFX", "green"],["Object Oriented Design", "red"]
+              ["JavaFX", "green"],
+              ["Object Oriented Design", "red"],
             ]}
             name="Pizza Ordering System"
+          ></ProjectCard>
+        </Grid.Column>
+        <Grid.Column>
+          <ProjectCard
+            key="6"
+            color="black"
+            img={[c1, c2, c3]}
+            subheader="Terminal App"
+            desc="Created a local multiplayer chess game in a console form factor. Coded entirely on pure C#"
+            footer={[
+              ["C#", "blue"],
+              ["Terminal", "red"],
+              [".NET Core", "orange"],
+            ]}
+            name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
       </Grid>

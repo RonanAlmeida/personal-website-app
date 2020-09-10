@@ -6,9 +6,8 @@ function ProjectCard(props) {
   const skills = [];
 
   for (var i = 0; i < props.footer.length; i++) {
-    console.log(props.footer[i]);
     skills.push(
-      <Label 
+      <Label  key={skills.toString()}
         style={{ marginTop: "3px", textAlign: "center" }}
         color={props.footer[i][1]}
       >
