@@ -30,12 +30,13 @@ function ProjectCard(props) {
 
         <Card.Content  textAlign="center" extra>{skills}</Card.Content>
         {/* <strong ref={contextRef}></strong> */}
+
         <Button.Group>
-          <Button color="blue">
+          <Button  target="_blank" href={props.viewlink} color="blue">
             <Icon name="linkify" /> View
           </Button>
 
-          <Button color="black">
+          <Button  target="_blank" href={props.gitlink}  color="black">
             <Icon name="github" /> Github
           </Button>
         </Button.Group>

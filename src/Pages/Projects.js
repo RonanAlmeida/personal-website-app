@@ -111,7 +111,9 @@ function MainPage() {
             color="yellow"
             img={[s, s2, s3]}
             subheader="Web Application"
-            desc=" Moblie React shopping site that uses the core react components and designed with Tailwind CSS. The App makes an API request to a server which retrives product listings to be displayed within the app. "
+            desc="Moblie React shopping site that uses the core react components and designed with Tailwind CSS. The app makes an API request to a server that retrieves product listings to be displayed within the app.
+"
+            gitlink="https://github.com/RonanAlmeida/ReactProjects"
             footer={[
               ["Javascript", "yellow"],
               ["React.js", "red"],
@@ -130,11 +132,12 @@ function MainPage() {
             color="green"
             img={[a3, a1, a2, a4]}
             subheader="Windows Application"
-            desc="Built a student database manager that allows adminstrators to edit, add and delete student data information. Along with a limited student view to showcase marks. Application uses an Acess Database to store and modify student data"
+            desc="Built a student database manager that allows administrators to edit, add and delete student data information. Along with a limited student view to showcase marks. The application uses an Access Database to store and modify student data.
+            "
             footer={[
               ["C#", "blue"],
               ["SQL", "red"],
-              ["Acess Database", "yellow"],
+              ["Access Database", "yellow"],
               [".NET Framework", "orange"],
               ["Windows Forms", "green"],
             ]}
@@ -147,12 +150,14 @@ function MainPage() {
             color="green"
             img={[i2, i1, i3, i4, i5]}
             subheader="Windows Application"
-            desc="Windows Application that modifies uploaded images based on varying user selections. Image modifications can be stacked and saved in scaled resolutions."
+            desc="Windows Application that modifies uploaded images based on varying user selections. Image modifications can be stacked and saved in scaled resolutions.
+            "
             footer={[
               ["C#", "blue"],
               [".NET Framework", "orange"],
               ["Windows Forms", "green"],
             ]}
+            gitlink="https://github.com/RonanAlmeida/ImageProcessing"
             name="Image Processing"
           ></ProjectCard>
         </Grid.Column>
@@ -161,14 +166,16 @@ function MainPage() {
             key="5"
             color="purple"
             img={[p1, p2, p3]}
-            subheader="JavaFX"
-            desc="Built a JavaFX GUI that allows users to order a cusomizable pizza. The Application follows  object oriented design principles along with strict JUnit testing"
+            subheader="JavaFX GUI"
+            desc="Built a JavaFX GUI that allows users to order a customizable pizza. The Application follows object-oriented design principles along with strict JUnit testing.
+            "
             footer={[
               ["Java", "yellow"],
               ["JUnit Testing", "blue"],
               ["JavaFX", "green"],
               ["Object Oriented Design", "red"],
             ]}
+            gitlink="https://github.com/RonanAlmeida/PizzaOrderingSystem"
             name="Pizza Ordering System"
           ></ProjectCard>
         </Grid.Column>
@@ -178,12 +185,14 @@ function MainPage() {
             color="black"
             img={[c1, c2, c3]}
             subheader="Terminal App"
-            desc="Created a local multiplayer chess game in a console form factor. Coded entirely on pure C#"
+            desc="Created a local multiplayer chess game in a console form factor. Coded entirely on pure C#.
+            "
             footer={[
               ["C#", "blue"],
               ["Terminal", "red"],
               [".NET Core", "orange"],
             ]}
+            gitlink="https://github.com/RonanAlmeida/ConsoleChess"
             name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
