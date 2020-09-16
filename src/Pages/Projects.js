@@ -132,7 +132,8 @@ function MainPage() {
             color="green"
             img={[a3, a1, a2, a4]}
             subheader="Windows Application"
-            desc="Built a student database manager that allows teachers to edit, add & delete student information within a classroom. The system is connected through an Acess Database which utilizes varying SQL queries to store, modify and delete student data.
+            desc="Built a student database manager that allows teachers to edit, add & delete student information within a classroom. The system is connected through 
+            an Access Database which utilizes varying SQL queries to alter student data
             "
             footer={[
               ["C#", "blue"],

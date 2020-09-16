@@ -14,7 +14,7 @@ import {
 } from "semantic-ui-react";
 import IconOutline from "../Components/IconOutline";
 import GooeyReact from "../OuterComponents/GooeyReact";
-import pdf from "../Documents/RonanAlmeidaSept2020Resume.pdf";
+import pdf from "../Documents/RonanAlmeidaResume.pdf";
 
 function MainPage() {
   const style = {
