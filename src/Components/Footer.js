@@ -8,6 +8,7 @@ function Footer() {
     marginTop: "10em",
     marginBottom: "1em",
   };
-  return <div style={Item}>Designed and Developed by Ronan Almeida © </div>;
+  return <div style={Item}>Designed and Developed by Ronan Almeida © 
+  </div>;
 }
 export default Footer;

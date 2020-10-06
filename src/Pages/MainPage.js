@@ -59,7 +59,7 @@ function MainPage() {
       <Header
         as="h1"
         style={style.h2}
-        subheader="Passionate about combing impactful software and algorithmic thinking to deliver effective user solutions"
+        subheader="Passionate about combining impactful software and algorithmic thinking to deliver effective user solutions"
         textAlign="center"
       />
       <Header textAlign="center">
@@ -90,7 +90,14 @@ function MainPage() {
 
       <Divider horizontal>
         <Header as="h1">
-          <Icon name="angle down" inverted color="black"></Icon>
+          <Icon style={{
+          animation: "MoveUpDown 2.7s linear infinite",
+          // marginTop: "5em",
+          textAlign: "center",
+          // position: "absolute",
+          // left: "0",
+          // bottom: "0"
+        }} name="angle down" inverted color="black"></Icon>
         </Header>
       </Divider>
     </div>
