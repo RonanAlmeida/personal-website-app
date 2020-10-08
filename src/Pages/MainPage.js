@@ -89,16 +89,20 @@ function MainPage() {
       </Header>
 
       <Divider horizontal>
+      <Header style={{margin:"0em",padding:"0em"}}textAlign="center" sub>VIEW Projects</Header>
         <Header as="h1">
           <Icon style={{
           animation: "MoveUpDown 2.7s linear infinite",
-          // marginTop: "5em",
+          marginTop: "0em",
+          margin:"0em",
           textAlign: "center",
+          padding:"0em"
           // position: "absolute",
           // left: "0",
           // bottom: "0"
         }} name="angle down" inverted color="black"></Icon>
         </Header>
+        
       </Divider>
     </div>
   );

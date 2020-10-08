@@ -13,6 +13,7 @@ import {
   Button,
 } from "semantic-ui-react";
 import ProjectCard from "../Components/ProjectCard";
+import CustomCard from "../Components/CustomCard";
 
 import s from "../project_images/shopapp1.png";
 import s2 from "../project_images/shopapp2.png";
@@ -32,6 +33,11 @@ import a4 from "../project_images/admin4.png";
 import p1 from "../project_images/piz1.png";
 import p2 from "../project_images/piz2.png";
 import p3 from "../project_images/piz3.png";
+import sp1 from "../project_images/sp1.png";
+import sp2 from "../project_images/sp2.png";
+import sp3 from "../project_images/sp3.png";
+import sp4 from "../project_images/sp4.png";
+
 function MainPage() {
   const style = {
     h1: {
@@ -106,6 +112,28 @@ function MainPage() {
           ></ProjectCard>
         </Grid.Column> */}
         <Grid.Column>
+          <CustomCard
+            key="3"
+            color="yellow"
+            img={[sp1, sp3, sp2,sp4]}
+            subheader="Web Application"
+            desc="Developing a full-stack web app that uses the Spotify Web API to compare two different artists, albums, or songs. The app makes a backend API request to the Spotify server which retrieves  profile information, images, and statistics."
+
+            weblink="https://ronanalmeida.github.io/higher-lower-stats/"
+            footer={[
+              
+              ["React.js", "red"],
+              ["Spotify Web API", "green"],
+              ["Javascript", "yellow"],
+              ["Node.js", "orange"],
+              ["Axios API", "purple"],
+              ["Semantic UI", "blue"],
+             
+            ]}
+            name="Spotify Higher or Lower"
+          ></CustomCard>
+        </Grid.Column>
+        <Grid.Column>
           <ProjectCard
             key="3"
             color="yellow"
@@ -132,9 +160,8 @@ function MainPage() {
             color="green"
             img={[a3, a1, a2, a4]}
             subheader="Windows Application"
-            desc="Built a student database manager that allows teachers to edit, add & delete student information within a classroom. The system is connected through 
-            an Access Database which utilizes varying SQL queries to alter student data
-            "
+            desc="Built a student manager that allows teachers to edit, add & delete student information. Connected through 
+            an Access Database which utilizes varying SQL queries to alter student data. "
             footer={[
               ["C#", "blue"],
               ["SQL", "red"],
@@ -152,7 +179,7 @@ function MainPage() {
             color="green"
             img={[i2, i1, i3, i4, i5]}
             subheader="Windows Application"
-            desc="Windows Application that modifies uploaded images based on varying user selections. Image modifications can be stacked and saved in scaled resolutions.
+            desc="Windows Application that modifies user uploaded images based on varying selections. The image modifications can be stacked on top of one another and can saved in differing resolutions.
             "
             footer={[
               ["C#", "blue"],
@@ -161,6 +188,24 @@ function MainPage() {
             ]}
             gitlink="https://github.com/RonanAlmeida/ImageProcessing"
             name="Image Processing"
+          ></ProjectCard>
+        </Grid.Column>
+
+        <Grid.Column>
+          <ProjectCard
+            key="6"
+            color="black"
+            img={[c1, c2, c3]}
+            subheader="Terminal App"
+            desc="Created a local multiplayer chess game in a console form factor. Programmed entirely on pure C#.
+            "
+            footer={[
+              ["C#", "blue"],
+              ["Terminal", "red"],
+              [".NET Core", "orange"],
+            ]}
+            gitlink="https://github.com/RonanAlmeida/ConsoleChess"
+            name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
@@ -179,23 +224,6 @@ function MainPage() {
             ]}
             gitlink="https://github.com/RonanAlmeida/PizzaOrderingSystem"
             name="Pizza Ordering System"
-          ></ProjectCard>
-        </Grid.Column>
-        <Grid.Column>
-          <ProjectCard
-            key="6"
-            color="black"
-            img={[c1, c2, c3]}
-            subheader="Terminal App"
-            desc="Created a local multiplayer chess game in a console form factor. Coded entirely on pure C#.
-            "
-            footer={[
-              ["C#", "blue"],
-              ["Terminal", "red"],
-              [".NET Core", "orange"],
-            ]}
-            gitlink="https://github.com/RonanAlmeida/ConsoleChess"
-            name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
       </Grid>

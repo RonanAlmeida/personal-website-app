@@ -83,13 +83,13 @@ img {
 
 @keyframes MoveUpDown {
   0% {
-    transform: translate(0, 0px);
+    transform: translate(0, -10px);
   }
   20% {
-    transform: translate(0, 5px);
+    transform: translate(0, 0);
   }
   100% {
-    transform: translate(0, 0px);
+    transform: translate(0, -10px);
   }
 }
 
