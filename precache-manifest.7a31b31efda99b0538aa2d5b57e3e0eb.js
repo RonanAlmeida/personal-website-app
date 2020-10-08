@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c720345e3d648677fa4d83d86d1ab1b8",
+    "revision": "64a55c13b1e28e2233b50042f955bd27",
     "url": "/index.html"
   },
   {
-    "revision": "bf63c093542251a86509",
+    "revision": "9a9c055dc38140d740bf",
     "url": "/static/css/2.0dc00564.chunk.css"
   },
   {
-    "revision": "d57ed8f7590b382c6b67",
-    "url": "/static/css/main.ff10f499.chunk.css"
+    "revision": "be08bdd823b5fe28f3c4",
+    "url": "/static/css/main.90338fb3.chunk.css"
   },
   {
-    "revision": "bf63c093542251a86509",
-    "url": "/static/js/2.23c47274.chunk.js"
+    "revision": "9a9c055dc38140d740bf",
+    "url": "/static/js/2.9d30c7df.chunk.js"
   },
   {
     "revision": "2089965cc3e0fbb1dda2d650d8277df4",
-    "url": "/static/js/2.23c47274.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9d30c7df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d57ed8f7590b382c6b67",
-    "url": "/static/js/main.a0bb80fe.chunk.js"
+    "revision": "be08bdd823b5fe28f3c4",
+    "url": "/static/js/main.7e6ce18c.chunk.js"
   },
   {
     "revision": "18adff8123e63a5cd384",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/IMGP5.5e85b8f7.png"
   },
   {
-    "revision": "013c54797d9d0c166e47df37053258d6",
-    "url": "/static/media/RonanAlmeidaResume.013c5479.pdf"
+    "revision": "ffb7b73edf5e55acd7d3178a465caf4f",
+    "url": "/static/media/RonanAlmeidaResume.ffb7b73e.pdf"
   },
   {
     "revision": "9219bea007a56b7d547cb11c4fa4a881",
@@ -166,5 +166,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f91fe58de331979c97b448461011bbb1",
     "url": "/static/media/shopapp3.f91fe58d.png"
+  },
+  {
+    "revision": "c94f7c8fd2485e016b1256ed30d77484",
+    "url": "/static/media/sp1.c94f7c8f.png"
+  },
+  {
+    "revision": "429226da43334624e51daa9c3bec2e7e",
+    "url": "/static/media/sp2.429226da.png"
+  },
+  {
+    "revision": "299a1e15d7ff96d4d74883b171f5b1cf",
+    "url": "/static/media/sp3.299a1e15.png"
+  },
+  {
+    "revision": "cbd4e1396372f1b7657e2fed0467012f",
+    "url": "/static/media/sp4.cbd4e139.png"
   }
 ]);
