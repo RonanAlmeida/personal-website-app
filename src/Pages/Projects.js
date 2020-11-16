@@ -208,7 +208,7 @@ function MainPage() {
             name="Console Chess"
           ></ProjectCard>
         </Grid.Column>
-        <Grid.Column>
+        {/* <Grid.Column>
           <ProjectCard
             key="5"
             color="purple"
@@ -225,7 +225,7 @@ function MainPage() {
             gitlink="https://github.com/RonanAlmeida/PizzaOrderingSystem"
             name="Pizza Ordering System"
           ></ProjectCard>
-        </Grid.Column>
+        </Grid.Column> */}
       </Grid>
     </div>
   );
