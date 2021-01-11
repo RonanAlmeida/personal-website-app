@@ -54,7 +54,7 @@ function MainPage() {
         size="huge"
       />
       <Header textAlign="center" sub>
-        Software Engineer
+      Aspiring Software Engineer
       </Header>
       <Header
         as="h1"
