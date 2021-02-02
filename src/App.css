@@ -1,6 +1,6 @@
 .App {
   /* text-align: center; */
-  margin: 1em;
+  /* margin: 1em; */
 }
 
 svg * {
@@ -8,7 +8,7 @@ svg * {
 }
 
 .App {
-  margin: 1em;
+  /* margin: 1em; */
   animation: fadein 2s;
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */

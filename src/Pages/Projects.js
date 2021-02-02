@@ -126,11 +126,12 @@ function MainPage() {
               ["Spotify Web API", "green"],
               ["Javascript", "yellow"],
               ["Node.js", "orange"],
-              ["Axios API", "purple"],
+              ["Axios", "purple"],
               ["Semantic UI", "blue"],
              
             ]}
-            name="Spotify Higher or Lower"
+            name="
+💽 Spotify Higher or Lower"
           ></CustomCard>
         </Grid.Column>
         <Grid.Column>
@@ -147,11 +148,12 @@ function MainPage() {
               ["React.js", "red"],
               ["Node.js", "green"],
               ["Router", "blue"],
-              ["Axios API", "purple"],
+              ["Axios", "purple"],
               ["Hooks", "olive"],
               ["Tailwind CSS", "green"],
             ]}
-            name="Shop App"
+            name="
+            🛒 Shop App"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
@@ -169,7 +171,7 @@ function MainPage() {
               [".NET Framework", "orange"],
               ["Windows Forms", "green"],
             ]}
-            name="Student Administrative System"
+            name="📚 Administrative System"
             gitlink="https://github.com/RonanAlmeida/StudentAdminSystem"
           ></ProjectCard>
         </Grid.Column>
@@ -187,7 +189,8 @@ function MainPage() {
               ["Windows Forms", "green"],
             ]}
             gitlink="https://github.com/RonanAlmeida/ImageProcessing"
-            name="Image Processing"
+            name="
+            🖼️ Image Processing"
           ></ProjectCard>
         </Grid.Column>
 
@@ -205,7 +208,7 @@ function MainPage() {
               [".NET Core", "orange"],
             ]}
             gitlink="https://github.com/RonanAlmeida/ConsoleChess"
-            name="Console Chess"
+            name="♟️ Console Chess"
           ></ProjectCard>
         </Grid.Column>
         {/* <Grid.Column>

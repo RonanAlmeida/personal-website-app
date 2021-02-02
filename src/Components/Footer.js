@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, List, Icon } from "semantic-ui-react";
+import { Container, List, Icon, Segment } from "semantic-ui-react";
 import pdf from "../Documents/RonanAlmeidaResume.pdf";
 
 function Footer() {
@@ -8,7 +8,7 @@ function Footer() {
     bottom: "0",
     textAlign: "center",
     marginTop: "10em",
-    marginBottom: "1em",
+    marginBottom: "3em",
   };
 
   // return <div style={Item}>Designed and Developed by Ronan Almeida ©
@@ -17,48 +17,55 @@ function Footer() {
     window.open(pdf);
   }
   return (
-    <Container style={Item} textAlign="center">
-      {/* <Divider inverted section /> */}
-      {/* <Image src="/logo.png" centered size="mini" /> */}
-      <List horizontal divided link size="small">
-        <List.Item as="a">Designed and Developed by Ronan Almeida ©</List.Item>
-        <List.Item
-          as="a"
-          target="_blank"
-          onClick={onResumeClick}
-        >
-          <Icon color="black" size="small" name="file alternate" />
-          Resume
-        </List.Item>
+    // <List.Item as="a">Designed and Developed by Ronan Almeida ©</List.Item>
 
-        <List.Item
-          as="a"
-          target="_blank"
-          href="https://github.com/RonanAlmeida"
-        >
-          <Icon color="black" size="small" name="github" />
-          Github
-        </List.Item>
+    <Segment
+      inverted
+      color="gray"
+      style={{ margin: "5em 0em 0em", padding: "0.5em 0em" }}
+      vertical
+    >
+      <Container textAlign="center">
+        {/* <Divider inverted section /> */}
+        {/* <Image src="/logo.png" centered size="mini" /> */}
+        <List horizontal inverted divided link size="small">
+          <List.Item as="a" target="_blank" href="https://ronan.tech/">
+            Designed and Developed by Ronan Almeida ©
+          </List.Item>
 
-        <List.Item
-          as="a"
-          target="_blank"
-          href="https://www.linkedin.com/in/ronanalmeida/"
-        >
-          {" "}
-          <Icon color="black" size="small" name="linkedin" />
-          LinkedIn
-        </List.Item>
-        <List.Item
-          as="a"
-          target="_blank"
-          href="mailto: ronan.almeida@queensu.ca"
-        >
-          <Icon color="black" size="small" name="mail" />
-          Email
-        </List.Item>
-      </List>
-    </Container>
+          <List.Item as="a" target="_blank" onClick={onResumeClick}>
+            <Icon color="white" size="small" name="file alternate" />
+            Resume
+          </List.Item>
+          <List.Item
+            as="a"
+            target="_blank"
+            href="https://www.linkedin.com/in/ronanalmeida/"
+          >
+            {" "}
+            <Icon color="white" size="small" name="linkedin" />
+            LinkedIn
+          </List.Item>
+          <List.Item
+            as="a"
+            target="_blank"
+            href="mailto: ronan.almeida@queensu.ca"
+          >
+            <Icon color="white" size="small" name="mail" />
+            Email
+          </List.Item>
+
+          <List.Item
+            as="a"
+            target="_blank"
+            href="https://github.com/RonanAlmeida"
+          >
+            <Icon color="white" size="small" name="github" />
+            Github
+          </List.Item>
+        </List>
+      </Container>
+    </Segment>
   );
 }
 export default Footer;
