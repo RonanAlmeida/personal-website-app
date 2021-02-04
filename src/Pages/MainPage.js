@@ -60,30 +60,35 @@ function MainPage() {
         as="h1"
         style={style.h2}
         subheader="Passionate about combining impactful software and algorithmic thinking to deliver effective user solutions"
+        // subheader="Passionate about creating well rounded modern applications"
         textAlign="center"
       />
-      <Header textAlign="center">
+      <Header textAlign="center"              >
         <IconOutline
           name="file alternate"
           content="Resume"
           // href=""
           // target=""
+          popupContent="RonanAlmeidaResume.pdf"
           iconClick={onResumeClick}
         />
 
         <IconOutline
           name="linkedin"
           content="LinkedIn"
+          popupContent="/in/RonanAlmeida"
           href="https://www.linkedin.com/in/ronanalmeida/"
         />
         <IconOutline
           name="github"
           content="Github"
+          popupContent="/RonanAlmeida"
           href="https://github.com/RonanAlmeida"
         />
         <IconOutline
           name="mail"
           content="Email"
+          popupContent="ronan.almeida@queensu.ca"
           href="mailto: ronan.almeida@queensu.ca"
         />
       </Header>

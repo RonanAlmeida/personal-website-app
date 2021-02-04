@@ -112,4 +112,7 @@ img {
 .icon:hover {
   transform: scale(1.07);
   cursor: pointer;
+  /* color:#179926 !important; */
+  /* background-color:green !important; */
+
 }

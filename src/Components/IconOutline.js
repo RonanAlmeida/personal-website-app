@@ -29,13 +29,13 @@ function IconOutline(props) {
                 size="huge"
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
-              />
+              />{props.content}
             </Header>
           </a>
        
      
       }
-      content={props.content}
+      content={props.popupContent}
       position="bottom center"
       inverted
     />

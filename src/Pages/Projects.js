@@ -171,7 +171,7 @@ function MainPage() {
               [".NET Framework", "orange"],
               ["Windows Forms", "green"],
             ]}
-            name="📚 Administrative System"
+            name="📚 Student Admin System"
             gitlink="https://github.com/RonanAlmeida/StudentAdminSystem"
           ></ProjectCard>
         </Grid.Column>
