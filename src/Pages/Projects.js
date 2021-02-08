@@ -38,6 +38,11 @@ import sp2 from "../project_images/sp2.png";
 import sp3 from "../project_images/sp3.png";
 import sp4 from "../project_images/sp4.png";
 
+import mb1 from "../project_images/mBuddy1.png";
+import mb2 from "../project_images/mbuddy2.png";
+import mb3 from "../project_images/mbuddy3.png";
+import mb4 from "../project_images/mbuddy4.png";
+
 function MainPage() {
   const style = {
     h1: {
@@ -112,23 +117,41 @@ function MainPage() {
           ></ProjectCard>
         </Grid.Column> */}
         <Grid.Column>
+          <ProjectCard
+            key="3"
+            color="yellow"
+            img={[mb1, mb2, mb3, mb4]}
+            subheader="Web Application"
+            desc="Web app that scrapes subreddits for stock related data and generates an organized report for the top stock picks and classifies submissions using NLP. Implemented utilizing API end point in Flask and connected it with a React.js frontend."
+            gitlink="https://github.com/RonanAlmeida/reddit-stock-app"
+
+            footer={[
+              ["React.js", "red"],
+              ["Flask", "green"],
+              ["Python", "purple"],
+              ["Reddit API - PRAW", "orange"],
+              ["Javascript", "yellow"],
+              ["Semantic UI", "blue"],
+            ]}
+            name="
+            📈 MarketBuddy"
+          ></ProjectCard>
+        </Grid.Column>
+        <Grid.Column>
           <CustomCard
             key="3"
             color="yellow"
-            img={[sp1, sp3, sp2,sp4]}
+            img={[sp1, sp3, sp2, sp4]}
             subheader="Web Application"
             desc="Developing a full-stack web app that uses the Spotify Web API to compare two different artists, albums, or songs. The app makes a backend API request to the Spotify server which retrieves  profile information, images, and statistics."
-
             weblink="https://ronanalmeida.github.io/higher-lower-stats/"
             footer={[
-              
               ["React.js", "red"],
               ["Spotify Web API", "green"],
               ["Javascript", "yellow"],
               ["Node.js", "orange"],
               ["Axios", "purple"],
               ["Semantic UI", "blue"],
-             
             ]}
             name="
 💽 Spotify Higher or Lower"
@@ -181,7 +204,7 @@ function MainPage() {
             color="green"
             img={[i2, i1, i3, i4, i5]}
             subheader="Windows Application"
-            desc="Windows Application that modifies user uploaded images based on varying selections. The image modifications can be stacked on top of one another and can saved in differing resolutions.
+            desc="Windows Application that modifies user uploaded images based on varying selections which can be stacked on top of another in differing resolutions.
             "
             footer={[
               ["C#", "blue"],
