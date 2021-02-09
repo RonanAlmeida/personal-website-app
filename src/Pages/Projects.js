@@ -122,7 +122,7 @@ function MainPage() {
             color="yellow"
             img={[mb1, mb2, mb3, mb4]}
             subheader="Web Application"
-            desc="Web app that scrapes subreddits for stock related data and generates an organized report for the top stock picks and classifies submissions using NLP. Implemented utilizing API end point in Flask and connected it with a React.js frontend."
+            desc="Web app that scrapes subreddits for stock related data, classifies posts and generates an organized report for the top stock picks. Implemented utilizing Flask API end points connected with a React.js frontend."
             gitlink="https://github.com/RonanAlmeida/reddit-stock-app"
 
             footer={[
