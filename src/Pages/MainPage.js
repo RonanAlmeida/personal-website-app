@@ -15,7 +15,7 @@ import {
 import IconOutline from "../Components/IconOutline";
 import GooeyReact from "../OuterComponents/GooeyReact";
 import pdf from "../Documents/RonanAlmeidaResume.pdf";
-
+import top from "../project_images/bettertop1.svg"
 function MainPage() {
   const style = {
     h1: {
@@ -44,23 +44,27 @@ function MainPage() {
   }
   return (
     <div>
+
+      <Image centered src={top}></Image>
       <GooeyReact style={style.h1} />
       <Header
         as="h1"
         content="Ronan Almeida"
-        subheader="Welcome to my personal website 👋🏾"
+        // subheader="Welcome to my personal website 👋🏾"
         style={style.h1}
         textAlign="center"
         size="huge"
       />
       <Header textAlign="center" sub>
-      Aspiring Software Engineer
+      {/* Aspiring Software Engineer */}
+      Computer Science @ Queen's University
+      {/* Computer Science at Queen's University */}
       </Header>
       <Header
         as="h1"
         style={style.h2}
-        subheader="Passionate about combining impactful software and algorithmic thinking to deliver effective user solutions"
-        // subheader="Passionate about creating well rounded modern applications"
+        // subheader="Passionate about combining impactful software and algorithmic thinking to deliver effective user solutions  "
+        subheader="Passionate about product development and creating well rounded modern applications"
         textAlign="center"
       />
       <Header textAlign="center"              >

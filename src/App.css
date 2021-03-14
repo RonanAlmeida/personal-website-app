@@ -75,7 +75,7 @@ img {
   margin-top: 5px;
 }
 .object {
-  animation: MoveUpDown 1s linear infinite;
+  animation: MoveUpDown 2s linear infinite;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -85,8 +85,8 @@ img {
   0% {
     transform: translate(0, -10px);
   }
-  20% {
-    transform: translate(0, 0);
+  50% {
+    transform: translate(0, 0.5px);
   }
   100% {
     transform: translate(0, -10px);
@@ -95,24 +95,24 @@ img {
 
 @keyframes floating {
   0% {
-    transform: translate(0, 0px);
+    transform: translate(0, -10px);
   }
   50% {
-    transform: translate(0, 40px);
+    transform: translate(0, 25px);
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translate(0, -10px);
   }
 }
 
-.icon {
+/* .icon {
   transition: 0.6s;
-}
+} */
 
-.icon:hover {
-  transform: scale(1.07);
+.icon {
+  /* transform: scale(1.07); */
   cursor: pointer;
-  /* color:#179926 !important; */
-  /* background-color:green !important; */
+  /* color:#179926 !important;  */
+   /* background-color:green !important; */
 
 }

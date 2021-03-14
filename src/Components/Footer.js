@@ -21,7 +21,6 @@ function Footer() {
 
     <Segment
       inverted
-      color="gray"
       style={{ margin: "5em 0em 0em", padding: "0.5em 0em" }}
       vertical
     >
@@ -34,7 +33,7 @@ function Footer() {
           </List.Item>
 
           <List.Item as="a" target="_blank" onClick={onResumeClick}>
-            <Icon color="white" size="small" name="file alternate" />
+            <Icon  size="small" name="file alternate" />
             Resume
           </List.Item>
           <List.Item
@@ -43,7 +42,7 @@ function Footer() {
             href="https://www.linkedin.com/in/ronanalmeida/"
           >
             {" "}
-            <Icon color="white" size="small" name="linkedin" />
+            <Icon size="small" name="linkedin" />
             LinkedIn
           </List.Item>
           <List.Item
@@ -51,7 +50,7 @@ function Footer() {
             target="_blank"
             href="mailto: ronan.almeida@queensu.ca"
           >
-            <Icon color="white" size="small" name="mail" />
+            <Icon size="small" name="mail" />
             Email
           </List.Item>
 
@@ -60,7 +59,7 @@ function Footer() {
             target="_blank"
             href="https://github.com/RonanAlmeida"
           >
-            <Icon color="white" size="small" name="github" />
+            <Icon  size="small" name="github" />
             Github
           </List.Item>
         </List>

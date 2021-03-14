@@ -63,7 +63,7 @@ function MainPage() {
       // fontSize: "1.5rem",
       // marginLeft: "1rem",
       // marginRight: "1rem",
-      marginTop: "5.3em",
+      marginTop: "5.5em",
       marginBottom: "1em",
       textAlign: "center",
     },
@@ -120,21 +120,21 @@ function MainPage() {
           <ProjectCard
             key="3"
             color="yellow"
-            img={[mb1, mb2, mb3, mb4]}
+            img={[mb3,mb4, mb2,mb1]}
             subheader="Web Application"
             desc="Web app that scrapes subreddits for stock related data, classifies posts and generates an organized report for the top stock picks. Implemented utilizing Flask API end points connected with a React.js frontend."
             gitlink="https://github.com/RonanAlmeida/reddit-stock-app"
 
             footer={[
               ["React.js", "red"],
+              ["Javascript", "yellow"],
               ["Flask", "green"],
               ["Python", "purple"],
-              ["Reddit API - PRAW", "orange"],
-              ["Javascript", "yellow"],
-              ["Semantic UI", "blue"],
+              ["Reddit API - PRAW", "orange"]
+              // ["Semantic UI", "blue"],
             ]}
             name="
-            📈 MarketBuddy"
+            📈 Reddit Stock App"
           ></ProjectCard>
         </Grid.Column>
         <Grid.Column>
@@ -150,8 +150,8 @@ function MainPage() {
               ["Spotify Web API", "green"],
               ["Javascript", "yellow"],
               ["Node.js", "orange"],
-              ["Axios", "purple"],
-              ["Semantic UI", "blue"],
+              ["Axios", "purple"]
+              // ["Semantic UI", "blue"],
             ]}
             name="
 💽 Spotify Higher or Lower"
