@@ -45,7 +45,7 @@ function MainPage() {
   return (
     <div>
 
-      <Image centered src={top}></Image>
+      <Image width="100%" height="100%"centered src={top}></Image>
       <GooeyReact style={style.h1} />
       <Header
         as="h1"
