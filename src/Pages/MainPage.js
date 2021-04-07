@@ -68,14 +68,14 @@ function MainPage() {
         textAlign="center"
       />
       <Header textAlign="center"              >
-        <IconOutline
+        {/* <IconOutline
           name="file alternate"
           content="Resume"
           // href=""
           // target=""
           popupContent="RonanAlmeidaResume.pdf"
           iconClick={onResumeClick}
-        />
+        /> */}
 
         <IconOutline
           name="linkedin"

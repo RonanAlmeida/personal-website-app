@@ -31,11 +31,11 @@ function Footer() {
           <List.Item as="a" target="_blank" href="https://ronan.tech/">
             Designed and Developed by Ronan Almeida ©
           </List.Item>
-
+{/* 
           <List.Item as="a" target="_blank" onClick={onResumeClick}>
             <Icon  size="small" name="file alternate" />
             Resume
-          </List.Item>
+          </List.Item> */}
           <List.Item
             as="a"
             target="_blank"
